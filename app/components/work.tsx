@@ -3,19 +3,21 @@ import Project from './workComponents/project'
 
 export default function Work() {
     return (
-        <div className="flex flex-col p-5 bg-orange-200">
-            <h1 className='text-center'>PROJECTS</h1>
+        <div id="work-section" className="flex flex-col p-5 pt-24 bg-primary">
+            <h1 className='font-abril text-3xl'>PROJECTS</h1>
             <Project 
                 projectName='BULALOI APP' 
-                projectDescription='JUST SKETCHY WEBSITE' 
+                projectImagePath='/gojo.jpg'
+                projectDescription='LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIATUR. EXCEPTEUR SINT OCCAECAT CUPIDATAT NON PROIDENT, SUNT IN CULPA QUI OFFICIA DESERUNT MOLLIT ANIM ID EST LABORUM.' 
                 projectTags={['JAVASCRIPT', 'HTML', 'CSS', 'NEXTJS', 'REACT', 'BOOTSTRAP', 'VERCEL']}
             />
             <Project 
                 projectName='BULALOI MANAGER' 
-                projectDescription='DESKTOP APPLICATION THAT IS USED TO MANAGE SKETCHY WEBSITE' 
+                projectImagePath='/gojo.jpg'
+                projectDescription='LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIATUR. EXCEPTEUR SINT OCCAECAT CUPIDATAT NON PROIDENT, SUNT IN CULPA QUI OFFICIA DESERUNT MOLLIT ANIM ID EST LABORUM.' 
                 projectTags={['PYTHON', 'PYQT6', 'CSS', 'GIT', 'LIBRARIES']}
             />
-            <div>SEE MORE</div>
+            <button className='font-lato text-primary shadow-md border self-center rounded-md w-36 p-2 m-2 bg-tertiary hover:bg-primary hover:text-secondary border-black'>SEE MORE</button>
         </div>
     )
 }
