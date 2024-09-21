@@ -17,7 +17,13 @@ export default function Work() {
                 projectDescription='LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIATUR. EXCEPTEUR SINT OCCAECAT CUPIDATAT NON PROIDENT, SUNT IN CULPA QUI OFFICIA DESERUNT MOLLIT ANIM ID EST LABORUM.' 
                 projectTags={['PYTHON', 'PYQT6', 'CSS', 'GIT', 'LIBRARIES']}
             />
-            <button className='font-lato text-primary shadow-md border self-center rounded-md w-36 p-2 m-2 bg-tertiary hover:bg-primary hover:text-secondary border-black'>SEE MORE</button>
+            <Project 
+                projectName='PROJECT 3' 
+                projectImagePath='/gojo.jpg'
+                projectDescription='LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIATUR. EXCEPTEUR SINT OCCAECAT CUPIDATAT NON PROIDENT, SUNT IN CULPA QUI OFFICIA DESERUNT MOLLIT ANIM ID EST LABORUM.' 
+                projectTags={['PYTHON', 'PYQT6', 'CSS', 'GIT', 'LIBRARIES']}
+            />
+            <button className='font-lato text-primary shadow-md border self-center rounded-md w-36 p-2 m-2 bg-tertiary hover:bg-primary hover:text-secondary hover:transition border-black'>SEE MORE</button>
         </div>
     )
 }

@@ -6,6 +6,24 @@ html {
   scroll-behavior: smooth;
 }
 
+/* #introduction-section {
+  background-image: url('/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-section {
+  background-image: url('/wave-2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#work-section {
+  background-image: url('/wave-2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
