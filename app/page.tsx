@@ -14,12 +14,12 @@ export default function Home() {
       <div className="bg-primary sm:mx-72">
         <Introduction />
         <Work />
-        <AnimatedSvg />
+        {/* <AnimatedSvg /> */}
         <About />
         <Contact />
       </div>
       <Footer />
-      <Practice />
+      {/* <Practice /> */}
     </>
   );
 }

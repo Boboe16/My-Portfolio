@@ -3,7 +3,7 @@ export default function Contact() {
 
     return (
         <div id="contact-section" className="flex flex-col p-5 pt-24 mb-28">
-            <h1 className="font-abril text-5xl">LET'S</h1>
+            <h1 className="font-abril text-5xl">LET&apos;S</h1>
             <h1 className="font-abril text-5xl">CONNECT</h1>
             <h2 className="font-abril text-xl mb-4">I AM ALWAYS INTERESTED ABOUT</h2>
             <button className={`${buttonCSS}`}>FRONT END DEVELOPMENT</button>
