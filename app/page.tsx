@@ -10,6 +10,7 @@ import AnimatedSvg from "./components/animated-wave";
 export default function Home() {
   return (
     <>
+      {/* <Practice /> */}
       <Navbar />
       <div className="bg-primary sm:mx-72">
         <Introduction />
@@ -19,7 +20,6 @@ export default function Home() {
         <Contact />
       </div>
       <Footer />
-      {/* <Practice /> */}
     </>
   );
 }

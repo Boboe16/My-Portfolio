@@ -20,7 +20,7 @@ export default function Header() {
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
-        window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
@@ -39,7 +39,7 @@ export default function Header() {
                             : section == "about-section" 
                                 ? section.toUpperCase().slice(0, 5) + ","
                                 : section == "contact-section"
-                                    ? section.toUpperCase().slice(0, 7) + ","
+                                    ? section.toUpperCase().slice(0, 7)
                                     : section.toUpperCase()
                         }
                         </a>
